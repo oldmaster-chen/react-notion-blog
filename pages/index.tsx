@@ -6,7 +6,7 @@ import Navbar from '../components/Navbar'
 import PostCard from '../components/PostCard'
 import { formatSlug } from '../utils/slugFormat'
 
-const NOTION_BLOG_ID = process.env.NOTION_BLOG_ID || '7021cba3b8a04865850473d4037762ad'
+const NOTION_BLOG_ID = process.env.NOTION_BLOG_ID || 'd28b420382254f7c920531cbc09af0bf'
 
 export interface Author {
   id: string
